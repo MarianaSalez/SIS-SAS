@@ -1,0 +1,13 @@
+.body__fondo{background-image: url(../images/Fondo.png); margin: 0px; padding: 0px; background-size: cover;}
+
+/*codigo para imagenes*/
+.cuadroTexto{border:solid rgb(2, 2, 2) 1px;}/*esta aplicado en quienes somos y en nuestras areas de trabajo de cada area*/
+.encuadre{widows: 350px;; height: 350px; border: solid black 1px; border-radius: 50px}
+.galeria{display: inline-block; width:30%;align-items: center;}
+.orden {display: flex; flex-wrap: wrap;}
+.encuadreGral{border: dashed maroon 1px; border-radius: 50px; max-height: 250px; align-self: center; justify-self: center;}
+
+/*codigo para elementos especificos*/
+.headerColumn{display: flex; flex-direction: column; justify-content: space-between; margin-top: 20px;}
+.sizePilar{width: 470px;border: solid maroon 1px; border-radius: 50px; justify-self: center;}
+.fondoOscuro{background-color: rgb(217,217,217);}

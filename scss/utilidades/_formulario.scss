@@ -1,0 +1,35 @@
+
+@mixin sizes($width, $height) {width: $width;
+  height: $height;
+}
+
+
+@media only screen and (min-width: 540px) 
+  {.size-sm-map {
+    @include sizes(300px,150px)}
+  .titulo-sm{font-size:20px;}
+  .subtitulo-sm{font-size:15px;}
+  }
+
+  @media only screen and (min-width: 768px) 
+  {.size-md-map {
+    @include sizes(350px,170px)}
+    .titulo-md{font-size:35px;}
+    .subtitulo-md{font-size:20px;}
+   }
+  
+
+  @media only screen and (min-width: 930px) 
+  {.size-lg-map {
+    @include sizes(400px,200px)}
+    .titulo-lg{font-size: 45px;} 
+    .subtitulo-lg{font-size:30px;}
+  }
+
+    @media only screen and (min-width: 1150px)   
+    {.size-lg-map {
+      @include sizes(500px,400px)} }
+
+    .mapa{overflow: hidden;}
+    .bordeMapa{border: dashed black 1px; text-align: center; align-items: center;}
+    .bordeFormulario{ border: inset white }

@@ -1,0 +1,17 @@
+/*codigo para layout*/
+#grilla{display: grid;
+    grid-template-areas:
+    "presentacion tabla"
+    "pilares tabla";
+grid-template-rows: 1fr  3fr; 
+grid-template-columns: 1fr 1fr;
+grid-column-gap: 10px;
+grid-row-gap: 5px; 
+background-color: grey; 
+justify-items: center;
+align-items: center;
+padding: 15px;}
+section#presentacion{grid-area: presentacion; margin: 15px; text-align: justify; padding: 15px;}
+section#tabla{grid-area: tabla;margin: 15px;}
+section#pilares{grid-area: pilares;margin: 15px; text-align: center;}
+
