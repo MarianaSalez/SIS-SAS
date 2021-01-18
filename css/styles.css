@@ -62,7 +62,7 @@ a {
 
 h1 {
   font-family: 'Roboto Condensed',serif;
-  color: rgb(0, 0, 0);
+  color: black;
   font-size: 45px; }
 
 h2 {
@@ -161,10 +161,9 @@ td {
 
 /*codigo para imagenes*/
 .cuadroTexto {
-  border: double solid #df1d1d 1px;
-  width: 500px;
-  height: 200px; }
+  border: solid #020202 1px; }
 
+/*esta aplicado en quienes somos y en nuestras areas de trabajo de cada area*/
 .encuadre {
   widows: 350px;
   height: 350px;
@@ -202,6 +201,10 @@ td {
 
 .fondoOscuro {
   background-color: #d9d9d9; }
+
+.flecha{
+  color: black;
+  opacity: 1; }
 
 @media only screen and (min-width: 540px) {
   .size-sm-map {
