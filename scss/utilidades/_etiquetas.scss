@@ -1,15 +1,16 @@
-header {display: flex; flex-direction: row; justify-content: space-evenly;
-    align-items:center; text-align: center;}
+header {display: flex; flex-direction: row; justify-content: space-between;
+    align-items:center; text-align: end;}
 
 
 a {text-decoration: none; color: black;}
 h1 { font-family: 'Roboto Condensed',serif; color:black; font-size: 45px;}
-h2{text-align: center;}
+h2{text-align: center; margin-top:10px}
 div{padding:15px;}
 p{font-family: 'Lato', sans-serif; margin-left: 25px; color: black;}
 section{border:2px; border-style: inset black 1px;}
 form {text-align: center;}
 footer{justify-content: space-between;}
+.negrita{font-weight: 800;}
 
 /*codigo para el menu desplegable*/
 ul{

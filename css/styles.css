@@ -4,27 +4,22 @@
   border-radius: 10px;
   margin: 10px; }
 
-.header__titulo {
-  font-size: 45px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 20px; }
-
 .header__color, .header__navbar--secondary {
   background: #d9d9d9; }
 
 .header__navbar {
-  text-align: right;
-  margin-left: 100px; }
+  text-align: right; }
 
 .header__navbar--secondary {
   text-align: center; }
 
+.header__title {
+  text-align: end; }
+
 /*codigo para layout*/
 #grilla {
   display: grid;
-  grid-template-areas: "presentacion tabla"
- "pilares tabla";
+  grid-template-areas: "presentacion tabla" "pilares tabla";
   grid-template-rows: 1fr  3fr;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 10px;
@@ -52,9 +47,9 @@ section#pilares {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  text-align: center; }
+  text-align: end; }
 
 a {
   text-decoration: none;
@@ -66,7 +61,8 @@ h1 {
   font-size: 45px; }
 
 h2 {
-  text-align: center; }
+  text-align: center;
+  margin-top: 10px; }
 
 div {
   padding: 15px; }
@@ -85,6 +81,9 @@ form {
 
 footer {
   justify-content: space-between; }
+
+.negrita {
+  font-weight: 800; }
 
 /*codigo para el menu desplegable*/
 ul ul {
@@ -202,36 +201,41 @@ td {
 .fondoOscuro {
   background-color: #d9d9d9; }
 
-.flecha{
+.flecha {
   color: black;
   opacity: 1; }
 
+@media only screen and (min-width: 150px) {
+  .size-xs-map {
+    width: 200px;
+    height: 250px; } }
+
 @media only screen and (min-width: 540px) {
   .size-sm-map {
-    width: 300px;
-    height: 150px; }
+    width: 330px;
+    height: 200px; }
   .titulo-sm {
-    font-size: 20px; }
+    font-size: 18px; }
   .subtitulo-sm {
     font-size: 15px; } }
 
 @media only screen and (min-width: 768px) {
   .size-md-map {
-    width: 350px;
-    height: 170px; }
+    width: 360px;
+    height: 250px; }
   .titulo-md {
-    font-size: 35px; }
+    font-size: 20px; }
   .subtitulo-md {
-    font-size: 20px; } }
+    font-size: 17px; } }
 
 @media only screen and (min-width: 930px) {
   .size-lg-map {
     width: 400px;
-    height: 200px; }
+    height: 300px; }
   .titulo-lg {
-    font-size: 45px; }
+    font-size: 30px; }
   .subtitulo-lg {
-    font-size: 30px; } }
+    font-size: 20px; } }
 
 @media only screen and (min-width: 1150px) {
   .size-lg-map {
