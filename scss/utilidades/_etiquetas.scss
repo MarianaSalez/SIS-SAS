@@ -5,17 +5,18 @@ header {display: flex; flex-direction: row; justify-content: space-between;
 a {text-decoration: none; color: black;}
 h1 { font-family: 'Roboto Condensed',serif; color:black; font-size: 45px;}
 h2{text-align: center; margin-top:10px}
-div{padding:15px; margin: 5px}
+div{padding:10px; margin: 5px}
 div img{
     width: 200px; height: 200px;
-    transition: all 1s;       
+    transition: all 1s;      
  }
  div img:hover {
     height: 240px; width: 240px;
     padding: 5px;
  }
  
-p{font-family: 'Lato', sans-serif; margin-left: 25px; color: black;}
+p{font-family: 'Lato', sans-serif; margin-left: 25px; margin-bottom: 0px ; color: black;}
+img{margin: 5px}
 section{border:2px; border-style: inset black 1px;}
 form {text-align: center;}
 footer{justify-content: space-between;}

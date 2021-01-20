@@ -65,7 +65,7 @@ h2 {
   margin-top: 10px; }
 
 div {
-  padding: 15px;
+  padding: 10px;
   margin: 5px; }
 
 div img {
@@ -81,7 +81,11 @@ div img:hover {
 p {
   font-family: 'Lato', sans-serif;
   margin-left: 25px;
+  margin-bottom: 0px;
   color: black; }
+
+img {
+  margin: 5px; }
 
 section {
   border: 2px;
