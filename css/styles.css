@@ -51,6 +51,12 @@ header {
   align-items: center;
   text-align: end; }
 
+body {
+  margin: 0px;
+  padding: 5px;
+  overflow-x: hidden;
+  width: 100%; }
+
 a {
   text-decoration: none;
   color: black; }
@@ -62,18 +68,19 @@ h1 {
 
 h2 {
   text-align: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-size: calc(15px + 1.5vw); }
 
 div {
   padding: 10px;
-  margin: 5px; }
+  margin: 3px; }
 
-div img {
+div a img {
   width: 200px;
   height: 200px;
   transition: all 1s; }
 
-div img:hover {
+a img:hover {
   height: 240px;
   width: 240px;
   padding: 5px; }
@@ -82,14 +89,11 @@ p {
   font-family: 'Lato', sans-serif;
   margin-left: 25px;
   margin-bottom: 0px;
-  color: black; }
+  color: black;
+  font-size: calc(15px + 0.5vw); }
 
 img {
   margin: 5px; }
-
-section {
-  border: 2px;
-  border-style: inset black 1px; }
 
 form {
   text-align: center; }
@@ -101,7 +105,7 @@ footer {
   font-weight: 800; }
 
 ul li {
-  font-size: 25px; }
+  font-size: 20px; }
 
 /*codigo para el menu desplegable*/
 ul ul {
@@ -197,6 +201,30 @@ td {
 
 .colorVialidad__mono {
   background-color: #fde587; }
+
+.textoAgrimensura {
+  color: #b6504b; }
+
+.textoAmbiente {
+  color: #37a265; }
+
+.textoArquitectura {
+  color: #ffb664; }
+
+.textoElectromecanica {
+  color: #ff5f5f; }
+
+.textoEstructuras {
+  color: #dba15f; }
+
+.textoGestion {
+  color: #ac83fd; }
+
+.textoHidraulica {
+  color: #6cc9ff; }
+
+.textoVialidad {
+  color: #fdd431; }
 
 .gray1 {
   background-color: rgba(146, 146, 146, 0.897); }
