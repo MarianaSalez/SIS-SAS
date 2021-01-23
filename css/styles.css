@@ -122,11 +122,10 @@ ul li:hover ul {
 
 /*codigo para tablas / td display:inline-block*/
 table {
-  color: #2c2b2b;
+  color: #111111;
   font-family: 'Roboto Condensed';
   background-color: #dbd0c6;
   border: solid black;
-  border-width: 5px;
   width: 100%; }
 
 th {
@@ -158,10 +157,14 @@ tbody {
 
 /*codigo para elementos especificos*/
 .tablaProfesionales {
-  color: maroon;
+  color: #050505;
   font-family: 'Roboto Condensed';
-  background-color: #aca9bb;
+  background-color: #d0cfd6;
   display: table; }
+  .tablaProfesionales tbody tr:nth-child(odd) {
+    background-color: #aca9ab; }
+  .tablaProfesionales tbody tr:nth-child(even) {
+    background-color: #ebebeb; }
 
 .colorBase {
   background: linear-gradient(to top, #545454, #d9d9d9);

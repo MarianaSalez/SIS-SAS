@@ -1,8 +1,8 @@
 
 /*codigo para tablas / td display:inline-block*/
-table {color: rgb(44, 43, 43) ; font-family:'Roboto Condensed'; 
+table {color: rgb(17, 17, 17) ; font-family:'Roboto Condensed'; 
     background-color: rgb(219, 208, 198);
-    border: solid black; border-width:5px; width: 100%;}
+    border: solid black; width: 100%;}
 th {text-align: center;border: solid black; border-width: 0.5px;}
 td {text-align: center;border: solid black; border-width: 0.5px;}
 thead{font-size: calc(10px+0.6vw)}
@@ -18,5 +18,13 @@ tbody{font-size: calc(10px+0.5vw);}
 
 
 /*codigo para elementos especificos*/
-.tablaProfesionales{color: maroon ; font-family:'Roboto Condensed'; 
-    background-color: rgb(172, 169, 187); display: table;}
+.tablaProfesionales{color: rgb(5, 5, 5) ; font-family:'Roboto Condensed'; 
+    background-color: rgb(208, 207, 214); display: table;
+
+    tbody tr:nth-child(odd) {
+        background-color: #aca9ab;
+      }
+      
+      tbody tr:nth-child(even) {
+        background-color: #ebebeb;
+      }}
