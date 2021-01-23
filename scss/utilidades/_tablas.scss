@@ -8,10 +8,11 @@ td {text-align: center;border: solid black; border-width: 0.5px;}
 thead{font-size: calc(10px+0.6vw)}
 tbody{font-size: calc(10px+0.5vw);}
 @media (max-width: 576px) {
+    table{width: 190; display: table-row wrap;}
     tbody {
-      font-size: 12px;
+    font-size: 12px; display: flex wrap;
     }
-    thead{font-size:14px}
+    thead{font-size:14px; display: flex wrap;}
 }
 
 
