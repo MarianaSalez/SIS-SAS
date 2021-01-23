@@ -4,21 +4,17 @@
   border-radius: 10px;
   margin: 10px; }
 
-.header__titulo {
-  font-size: 45px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 20px; }
-
 .header__color, .header__navbar--secondary {
   background: #d9d9d9; }
 
 .header__navbar {
-  text-align: right;
-  margin-left: 100px; }
+  text-align: right; }
 
 .header__navbar--secondary {
   text-align: center; }
+
+.header__title {
+  text-align: end; }
 
 /*codigo para layout*/
 #grilla {
@@ -51,9 +47,15 @@ section#pilares {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  text-align: center; }
+  text-align: end; }
+
+body {
+  margin: 0px;
+  padding: 5px;
+  overflow-x: hidden;
+  width: 100%; }
 
 a {
   text-decoration: none;
@@ -65,25 +67,45 @@ h1 {
   font-size: 45px; }
 
 h2 {
-  text-align: center; }
+  text-align: center;
+  margin-top: 10px;
+  font-size: calc(15px + 1.5vw); }
 
 div {
-  padding: 15px; }
+  padding: 10px;
+  margin: 3px; }
+
+div a img {
+  width: 200px;
+  height: 200px;
+  transition: all 1s; }
+
+a img:hover {
+  height: 240px;
+  width: 240px;
+  padding: 5px; }
 
 p {
   font-family: 'Lato', sans-serif;
   margin-left: 25px;
-  color: black; }
+  margin-bottom: 0px;
+  color: black;
+  font-size: calc(15px + 0.5vw); }
 
-section {
-  border: 2px;
-  border-style: inset black 1px; }
+img {
+  margin: 5px; }
 
 form {
   text-align: center; }
 
 footer {
   justify-content: space-between; }
+
+.negrita {
+  font-weight: 800; }
+
+ul li {
+  font-size: 20px; }
 
 /*codigo para el menu desplegable*/
 ul ul {
@@ -100,12 +122,11 @@ ul li:hover ul {
 
 /*codigo para tablas / td display:inline-block*/
 table {
-  color: #2c2b2b;
+  color: #111111;
   font-family: 'Roboto Condensed';
   background-color: #dbd0c6;
-  margin: 10px;
   border: solid black;
-  border-width: 5px; }
+  width: 100%; }
 
 th {
   text-align: center;
@@ -117,12 +138,33 @@ td {
   border: solid black;
   border-width: 0.5px; }
 
+thead {
+  font-size: calc(10px+0.6vw); }
+
+tbody {
+  font-size: calc(10px+0.5vw); }
+
+@media (max-width: 576px) {
+  table {
+    width: 190;
+    display: table-row wrap; }
+  tbody {
+    font-size: 12px;
+    display: flex wrap; }
+  thead {
+    font-size: 14px;
+    display: flex wrap; } }
+
 /*codigo para elementos especificos*/
 .tablaProfesionales {
-  color: maroon;
+  color: #050505;
   font-family: 'Roboto Condensed';
-  background-color: #aca9bb;
+  background-color: #d0cfd6;
   display: table; }
+  .tablaProfesionales tbody tr:nth-child(odd) {
+    background-color: #aca9ab; }
+  .tablaProfesionales tbody tr:nth-child(even) {
+    background-color: #ebebeb; }
 
 .colorBase {
   background: linear-gradient(to top, #545454, #d9d9d9);
@@ -151,6 +193,64 @@ td {
 
 .colorVialidad {
   background: linear-gradient(to top, #fdd431, #fde587, #fff1b7); }
+
+.colorBase__mono {
+  background-color: #d9d9d9;
+  background-size: cover; }
+
+.colorAgrimensura__mono {
+  background-color: #b6504b; }
+
+.colorAmbiente__mono {
+  background-color: #37a265; }
+
+.colorArquitectura__mono {
+  background-color: #ffb664; }
+
+.colorElectromecanica__mono {
+  background-color: #f83f3f; }
+
+.colorEstructuras__mono {
+  background-color: rgba(212, 148, 76, 0.897); }
+
+.colorGestion__mono {
+  background-color: #7233f0; }
+
+.colorHidraulica__mono {
+  background-color: rgba(14, 164, 252, 0.767); }
+
+.colorVialidad__mono {
+  background-color: rgba(243, 208, 66, 0.877); }
+
+.textoAgrimensura {
+  color: #b6504b; }
+
+.textoAmbiente {
+  color: #37a265; }
+
+.textoArquitectura {
+  color: rgba(250, 145, 25, 0.836); }
+
+.textoElectromecanica {
+  color: #fa2424; }
+
+.textoEstructuras {
+  color: #dba15f; }
+
+.textoGestion {
+  color: #ac83fd; }
+
+.textoHidraulica {
+  color: #6cc9ff; }
+
+.textoVialidad {
+  color: rgba(236, 192, 16, 0.884); }
+
+.gray1 {
+  background-color: rgba(146, 146, 146, 0.897); }
+
+.gray2 {
+  background-color: #b6b6b6; }
 
 .body__fondo {
   background-image: url(../images/Fondo.png);
@@ -205,36 +305,41 @@ td {
   color: black;
   opacity: 1; }
 
-@media only screen and (min-width: 540px) {
+@media only screen and (min-width: 150px) {
+  .size-xs-map {
+    width: 200px;
+    height: 250px; } }
+
+@media only screen and (min-width: 455px) {
   .size-sm-map {
-    width: 300px;
-    height: 150px; }
+    width: 400px;
+    height: 200px; }
   .titulo-sm {
-    font-size: 20px; }
+    font-size: 18px; }
   .subtitulo-sm {
     font-size: 15px; } }
 
 @media only screen and (min-width: 768px) {
   .size-md-map {
-    width: 350px;
-    height: 170px; }
+    width: 305px;
+    height: 250px; }
   .titulo-md {
-    font-size: 35px; }
+    font-size: 20px; }
   .subtitulo-md {
-    font-size: 20px; } }
+    font-size: 17px; } }
 
 @media only screen and (min-width: 930px) {
   .size-lg-map {
-    width: 400px;
-    height: 200px; }
+    width: 370px;
+    height: 300px; }
   .titulo-lg {
-    font-size: 45px; }
+    font-size: 30px; }
   .subtitulo-lg {
-    font-size: 30px; } }
+    font-size: 20px; } }
 
 @media only screen and (min-width: 1150px) {
-  .size-lg-map {
-    width: 500px;
+  .size-xl-map {
+    width: 450px;
     height: 400px; } }
 
 .mapa {

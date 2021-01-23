@@ -3,32 +3,36 @@
   height: $height;
 }
 
+@media only screen and (min-width: 150px) 
+  {.size-xs-map {
+    @include sizes(200px,250px)}
+  }
 
-@media only screen and (min-width: 540px) 
+@media only screen and (min-width: 455px) 
   {.size-sm-map {
-    @include sizes(300px,150px)}
-  .titulo-sm{font-size:20px;}
+    @include sizes(400px,200px)}
+  .titulo-sm{font-size:18px;}
   .subtitulo-sm{font-size:15px;}
   }
 
   @media only screen and (min-width: 768px) 
   {.size-md-map {
-    @include sizes(350px,170px)}
-    .titulo-md{font-size:35px;}
-    .subtitulo-md{font-size:20px;}
+    @include sizes(305px,250px)}
+    .titulo-md{font-size:20px;}
+    .subtitulo-md{font-size:17px;}
    }
   
 
   @media only screen and (min-width: 930px) 
   {.size-lg-map {
-    @include sizes(400px,200px)}
-    .titulo-lg{font-size: 45px;} 
-    .subtitulo-lg{font-size:30px;}
+    @include sizes(370px,300px)}
+    .titulo-lg{font-size: 30px;} 
+    .subtitulo-lg{font-size:20px;}
   }
 
     @media only screen and (min-width: 1150px)   
-    {.size-lg-map {
-      @include sizes(500px,400px)} }
+    {.size-xl-map {
+      @include sizes(450px,400px)} }
 
     .mapa{overflow: hidden;}
     .bordeMapa{border: dashed black 1px; text-align: center; align-items: center;}

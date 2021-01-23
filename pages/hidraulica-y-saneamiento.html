@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Consultora de Ingenieria Integral para proyectos hidraulcos y de saneamiento, con fundamento en la sustentabilidad">
+    <meta name="description" content="Consultora de Ingeniería Integral para proyectos hidráulcos y de saneamiento, con fundamento en la sustentabilidad">
     <meta name="keywords"  content="consultoria, auditoria, proyecto civil, obra civil, ambiental, sustentabilidad, hidraulica, saneamiento, cloacas, agua, hidrologia">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="icon" type="image/png"  href="../images/sis-hidraulica.jpg">
@@ -15,181 +16,180 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
     <title class="encabezado">SIS-Hidraulica y Saneamiento</title>
 </head>
-<body>
 
+<body>
     <header class="container-fluid colorHidraulica">
 
-        <div class="row"> 
+        <nav class="navbar nav-tabs navbar-expand-md navbar-light w-100"><!-- Agregue la imagen al nav, le di 100% de ancho, y le puse alineacion al final al submenu -->
+            <a class="navbar-brand" href="../index.html">
+                <img class="header__image animate__animated animate__flipInX d-inline-block align-top"  src="../images/sis-hidraulica.jpg" alt="SIS Hidraulica">
+              </a>
+            <div class="align-items-end">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
-        <div class="col-12 col-md-3">
-            <a href="../index.html">
-                <img class="header__image animate__animated animate__flipInX" src="../images/sis-hidraulica.jpg" alt="SIS hidraulica">
-            </a>
-        </div>
-        
-    
-        <div class="col-12 col-md-8"> 
-    
-            <h1 class="header__titulo d-none d-md-block">Servicios de ingenieria sustentable </h1> 
-    <br>
-        <!-- logo y titulo al mismo nivel -->
-    
-            <nav class="navbar nav-tabs navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-    
-    
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="quienes-somos.html">¿Quienes somos? <span class="sr-only">(current)</span></a>
+                    </li>
+            
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown"
+                            role="button" aria-haspopup="true" aria-expanded="false" href="#" > Nuestras areas de trabajo</a>
+                            
+                            <ul class="dropdown-menu colorHidraulica__mono">
+                                <li><a class="dropdown-item" href="agrimensura.html">Agrimensura</a></li>
+                                <li><a class="dropdown-item" href="ambiente.html">Ambiente</a></li>
+                                <li><a class="dropdown-item" href="arquiectura-e-instalaciones.html">Arquitectura e instalaciones</a></li>
+                                <li><a class="dropdown-item" href="electromecanica.html">Electromecanica</a></li>
+                                <li><a class="dropdown-item" href="estructuras-y-geotecnia.html">Estructuras y geotecnia</a></li>
+                                <li><a class="dropdown-item"href="gestion-de-obra.html">Gestion de Obra</a></li>
+                                <li><a class="dropdown-item" href="hidraulica-y-Saneamiento.html">Hidraulica y Saneamiento</a></li>
+                                <li><a class="dropdown-item" href="vialidad.html">Vialidad</a></li>
+                            </ul>
+                            
+                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="quienes-somos.html">¿Quienes somos? <span class="sr-only">(current)</span></a>
-                        </li>
-                
-                        <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                                role="button" aria-haspopup="true" aria-expanded="false" href="#" > Nuestras areas de trabajo</a>
-                                
-                                <ul class="dropdown-menu colorHidraulica">
-                                    <li><a class="dropdown-item" href="agrimensura.html">Agrimensura</a></li>
-                                    <li><a class="dropdown-item" href="ambiente.html">Ambiente</a></li>
-                                    <li><a class="dropdown-item" href="arquiectura-e-instalaciones.html">Arquitectura e instalaciones</a></li>
-                                    <li><a class="dropdown-item" href="electromecanica.html">Electromecanica</a></li>
-                                    <li><a class="dropdown-item" href="estructuras-y-geotecnia.html">Estructuras y geotecnia</a></li>
-                                    <li><a class="dropdown-item"href="gestion de obra.html">Gestion de Obra</a></li>
-                                    <li><a class="dropdown-item" href="hidraulica-y-Saneamiento.html">Hidraulica y Saneamiento</a></li>
-                                    <li><a class="dropdown-item" href="vialidad.html">Vialidad</a></li>
-                                </ul>
-                                
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-    
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-            </nav>
-    
+
         </div>
-    
-        </div>
-    
+        </nav>
+
     </header>
 
-        <section class="container-fluid body__fondo">
-            <div class="row align-items-center justify-content-evenly">
-                    <section class="col-md-4 col-sm-12">
-                <!-- Aca va la descripcion del area -->
-                <div class="card text-center">
+
+
+    <div class="container-fluid colorBase__mono">
+        <div>
+            <h2 class="text-center textoHidraulica negrita"><u>Nuestro Trabajo</u></h2>
+
+            <div class="row align-items-center text-center justify-content-around">
+
+                    <div class="container col-md-5 col-sm-12 overflow-hidden" >
+    
+                        <div data-aos="fade-right" data-aos-duration="1000">
+        
+                            <img class="img-thumbnail" src="../images/hidraulica/presentacion.jpeg" class="w-75" alt="presentacion">
+                        </div>
+                        
+                </div>
+
+
+    
+
+                    <div  class=" container col-md-6 col-sm-12 overflow-hidden" >
+                        
+                <!-- Aca va la descripcion del area animate__animated animate__fadeInLeft -->
+                <div class="card text-center " data-aos="fade-left" data-aos-duration="1000">
                     <div class="card-body">
-                    <h2 class="card-title">Nuestro Trabajo</h2>
                     <p class="card-text">La hidráulica es una rama de la ingeniería abocada al diseño y estudio de la conducción, 
                         tratamiento, y comportamiento del agua en todas sus formas; el fin de una obra o proyecto Hidráulico puede 
                         ser desde embalsar agua para su uso, hasta conducirla de forma segura a un cauce de río. 
                         Esta rama es quizás la más sensible de todas las posibles de la ingeniería, 
                         puesto que trabaja con un bien extremadamente escaso e imprescindible.
                         Desde SIS HIDRAULICA nos encargamos de este tipo de proyectos de manera integral pero adaptados 
-                        también a la realización de etapas parciales que se nos requiera..</p>
+                        también a la realización de etapas parciales que se nos requiera.</p>
+                    
                     </div>
-                </div>
-        </section>
-
-        <section class="col-md-8 col-sm-12">
-            <h2>¿Que Hacemos?</h2>
-    <!-- Aca va la lista de actividades que realizamos -->
-        <table class="table table-responsive">
-            <thead class="thead-dark">
-        <tr>
-            <th colspan="5">Estudios Hidráulicos Para el Diseño de Puentes.</th>
-        </tr>
-        </thead>
-        <thead class="thead-dark">
-            <tr>
-                <th colspan="5">Diseño, Cálculo y Asesoramiento De Obras Hidráulicas:</th>
-            </tr>
-        </thead>
-        <tbody>
-        <tr class="flex-row align-items-stretch">
-            <td>Lagunas De Retención</td>
-            <td> Protección De Riveras</td>
-            <td>Canalizaciones</td>
-            <td>Cálculo De Línea De Ribera</td>
-            <td>Diques y Embalses</td>
-        </tr>
-        </tbody>
-        <thead class="thead-dark">
-            <tr>
-                <th colspan="5">Diseño, Cálculo y Asesoramiento De Obras De Saneamiento Urbano Y Rural</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="flex-row align-items-stretch">
-            <td colspan="2">Redes De Distribución De Agua Potable</td>
-            <td> Planta Potabilizadora</td>
-            <td>Redes Cloacales</td>
-            <td>Planta Depuradora</td>
-            </tr>
-        </table>
-        </section>
+                
+            </div>
         </div>
 
-
-    <div class="row align-items-center no-gutters">
-        <section class= "col-md-12 text-center mw-100">
-            <h2>Galeria</h2>
-
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-
-                <div class="carousel-item active">
-                    <img class="img-fluid" src="../images/hidraulica/presentación.jpg" class="d-block w-75" alt="Presentacion">
-                </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="../images/hidraulica/embalse-RIII.jpg" class="d-block w-75" alt="embalse rio III">
-                </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="../images/hidraulica/medicion.jpg" class="d-block w-75" alt="Medicion cota de agua">
-                </div>
-                </div>
-                <a class="carousel-control-prev flecha" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next flecha" href="#carouselExampleControls" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </a>
-            </div>
-        </section>
+        </div>
     </div>
 
-        <section  class="container-fluid">
-            <h2 class="text-center">Conocer más</h2>
-        <!-- Aca se anexan articulos o informacion de interes del area -->
-            <div class="row text-center justify-content-evenly">
-                <div class="col-md-6 col-sm-12">
-                    <iframe class="img-fluid" src="https://www.youtube.com/embed/WX-PZGKmfyA" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen alt="linea de ribera"></iframe>
+    <div class="container overflow-hidden">
+        <div  data-aos="fade-down" data-aos-duration="1500">
+            <h2 class="textoHidraulica negrita"> <u>¿Que Hacemos? </u></h2>
+            <!-- Aca va la lista de actividades que realizamos  data-aos="fade-down" data-aos-duration="1500" class=" animate__animated animate__fadeInLeft" style="visibility:visible;animation-duration: 1000ms;animation-delay: 800ms;animation-name: fadeInLeft;" -->
+        <div class="row align-items-center justify-content-evenly">
+        
+    
+                <div class="col-md-7 col-sm-12 ">
+
+                    <table class="table">
+                        <thead class="thead-dark">
+                    <tr>
+                        <th colspan="5">Estudios Hidráulicos Para el Diseño de Puentes.</th>
+                    </tr>
+                    </thead>
+                    <thead class="thead-dark">
+                        <tr>
+                            <th colspan="5">Diseño, Cálculo y Asesoramiento De Obras Hidráulicas:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="flex-wrap align-items-stretch">
+                        <td class="d-flex">Lagunas De Retención</td>
+                        <td class="d-flex"> Protección De Riveras</td>
+                        <td class="d-flex">Canalizaciones</td>
+                        <td class="d-flex">Cálculo De Línea De Ribera</td>
+                        <td class="d-flex">Diques y Embalses</td>
+                    </tr>
+                    </tbody>
+                    <thead class="thead-dark">
+                        <tr>
+                            <th colspan="5">Diseño, Cálculo y Asesoramiento De Obras De Saneamiento Urbano Y Rural</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="flex-wrap align-items-stretch">
+                        <td colspan="2" class="d-flex">Redes De Distribución De Agua Potable</td>
+                        <td class="d-flex"> Planta Potabilizadora</td>
+                        <td class="d-flex">Redes Cloacales</td>
+                        <td class="d-flex">Planta Depuradora</td>
+                        </tr>
+                    </table>
 
                 </div>
 
-            <div class="col-md-6 col-sm-12">
-                <iframe  class="img-fluid" src="https://www.youtube.com/embed/WioSJ3aXb0M" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen alt="saneamiento rural"></iframe>
-                    
+                <div class=" card col-md-4 col-sm-12">
+                    <img class="card-img-top img-fluid" src="../images/hidraulica/Medicion.jpeg" class="w-75" alt="Medicion">
+                    <div class="card-body">Relevamiento de morfologia de Rio de la provincia de Cordoba para estudio Hidrologico</div>
                 </div>
-            </div>
-    </section>
+    </div>
+        
+    </div>
+
+
+    </div>
+        
+
+
+<div class=" container overflow-hidden">
+    <div  data-aos="fade-down" data-aos-duration="1500">
+        <h2 class="text-center textoHidraulica negrita"><u> Conocer más</u></h2>
+        <div class="row text-center justify-content-evenly">
+    <!-- Aca se anexan articulos o informacion de interes del area -->
+    <div class="col-md-5 col-sm-11 ">
+    <iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/WX-PZGKmfyA" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+    </div>
+    <div class="col-md-5 col-sm-11 ">
+        <iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/WioSJ3aXb0M" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+        </div>
+    </div>
+    </div> 
+
+</div>
+
+
+</div>
 
     <footer class="container-fluid colorHidraulica">
         <!-- LINKS DE REDES SOCIALES -->
-        <div class="row">
+        <div class="row text-center">
 
-                <div class="col-sm-6">
+                <div class="col-sm-5">
                     <h3>ENCONTRANOS EN LAS REDES</h3>
                     <a href="https://www.linkedin.com/company/69815777/">
                         <p>SIS S.A.S- LinkedIn</p>
@@ -199,7 +199,7 @@
                     </a>
                 </div>
 
-                <div class="col-sm-6">
+                <div class="col-sm-5">
                     <h3>
                         <a href="pages/contacto.html">CONTACTANOS</a>
                     </h3>
@@ -212,10 +212,17 @@
         </div>
         
     </footer>
-
+    
+    <script src="js/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><script>
+        AOS.init();
+      </script>
+        
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 
 </body>
+
+
 </html>

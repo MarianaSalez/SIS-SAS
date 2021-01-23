@@ -19,25 +19,20 @@
 <body>
     
 <!-- encabezado -->
-<header class=" container-fluid header__color">
+<header class=" container-fluid colorBase">
 
-    <div class="row"> 
-        <div class="col-12 col-md-3">
-            <a href="index.html"><img class="header__image animate__animated animate__flipInX" src="images/sis.jpg" alt="SIS" href="index.html"></a>
-        </div>
-    <div class="col-12 col-md-8"> 
-
-        <h1 class="header__titulo d-none d-md-block">Servicios de ingenieria sustentable </h1> <!--Agregué un d-none y d-md-block-->
-<br>
     <!-- logo y titulo al mismo nivel -->
+    <nav class="navbar nav-tabs navbar-expand-md navbar-light w-100">
+        <a class="navbar-brand" href="index.html">
+            <img class="header__image animate__animated animate__flipInX d-inline-block align-top"  src="images/sis.jpg" alt="SIS">
+          </a>
+        <div class="align-items-end">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <nav class="navbar nav-tabs navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 header__navbar">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
 
                 <li class="nav-item active">
@@ -69,46 +64,55 @@
         </div>
         </nav>
 
-    </div>
-
-    </div>
 
 </header>
 
-<hr/>
-
 <!-- INFORMACION DE PRESENTACIOND E LA EMPRESA -->
 
-<div class="container-fluid body__fondo">
-    <h2>Nuestros profesionales estan a su disposicion ante cualquier consulta:</h2>
-    <div class="row text-center">
-            <a class="col-md-4 col-sm-6" href="pages/agrimensura.html"><img src="images/sis-agrimensura.jpg" alt="SIS AGRIMENSURA"></a>
-            <br/>
-            <a class="col-md-4 col-sm-6" href="pages/ambiente.html"><img src="images/sis-ambiente.jpg" alt="SIS AMBIENTE"></a>
-            <br/>
-            <a class="col-md-4 col-sm-6" href="pages/arquiectura-e-instalaciones.html"><img src="images/sis-arquitectura.jpg" alt="SIS ARQUITECTURA E INSTALACIONES"></a>
-            <br/>
-            <a class="col-md-4 col-sm-6" href="pages/electromecanica.html"><img src="images/sis-electromecanica.jpg" alt="SIS ELECTROMECANICA"></a>
-            <br/>
-            <a class="col-md-4 col-sm-6" href="pages/estructuras-y-geotecnia.html"><img src="images/sis-estructura.jpg" alt="SIS ESTRUCTURAS Y GEOTECNIA"></a>
-            <br/>
-            <a class="col-md-4 col-sm-6" href="pages/gestion de obra.html"><img src="images/sis-gestion.jpg" alt="SIS GESTION DE OBRA"></a>
-            <br/>
-            <a class="col-md-4 col-sm-6" href="pages/hidraulica-y-saneamiento.html"><img src="images/sis-hidraulica.jpg" alt="SIS HIDRAULICA Y SANEAMIENTO"></a>
-            <br/>
-            <a class="col-md-4 col-sm-6" href="pages/vialidad.html"><img src="images/sis-vialidad.jpg" alt="SIS VIALIDAD"></a>
-            <br/>
+<div class="container-fluid colorBase__mono">
+    <h2>Nuestros profesionales estan a su disposición ante cualquier consulta:</h2>
+    <div class="row text-center justify-content-around">     
+        <div class= "col-md-3 col-sm-6">
+            <a href="pages/agrimensura.html"><img class="img-thumbnail" src="images/iconos-foto/agrimensura.png" alt="SIS AGRIMENSURA"></a>
+            <p class="colorAgrimensura__mono negrita">DIVISIÓN AGRIMENSURA</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <a href="pages/ambiente.html"><img class="img-thumbnail" src="images/iconos-foto/ambiente.png" alt="SIS AMBIENTE"></a>
+            <p class="colorAmbiente__mono negrita">DIVISIÓN AMBIENTE </p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <a  href="pages/arquiectura-e-instalaciones.html"><img class="img-thumbnail" src="images/iconos-foto/arquitectura.png" alt="SIS ARQUITECTURA E INSTALACIONES"></a> 
+            <p class="colorArquitectura__mono negrita">DIVISIÓN ARQUITECTURA E INSTALACIONES</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <a href="pages/electromecanica.html"><img class="img-thumbnail" src="images/iconos-foto/electromecanica.png" alt="SIS ELECTROMECANICA"></a>
+            <p class="colorElectromecanica__mono negrita">DIVISIÓN ELECTROMECÁNICA</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <a  href="pages/estructuras-y-geotecnia.html"><img class="img-thumbnail" src="images/iconos-foto/estructruras.png" alt="SIS ESTRUCTURAS Y GEOTECNIA"></a>
+            <p class="colorEstructuras__mono negrita">DIVISIÓN ESTRUCTURAS Y GEOTECNIA</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <a href="pages/gestion de obra.html"><img class="img-thumbnail" src="images/iconos-foto/gestion.png" alt="SIS GESTION DE OBRA"></a>
+            <p class="colorGestion__mono negrita">DIVISIÓN GESTIÓN DE OBRA</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <a href="pages/hidraulica-y-saneamiento.html"><img class="img-thumbnail" src="images/iconos-foto/hidraulica.png" alt="SIS HIDRAULICA Y SANEAMIENTO"></a>
+            <p class="colorHidraulica__mono negrita">DIVISIÓN HIDRÁULICA Y SANEAMIENTO</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <a  href="pages/vialidad.html"><img class="img-thumbnail"  src="images/iconos-foto/vialidad.png" alt="SIS VIALIDAD"></a>
+            <p class="colorVialidad__mono negrita">DIVISIÓN VIALIDAD</p>
+        </div>
     </div>
 </div>
 
-
-<hr/>
 <!-- pie de la pagina -->
     <footer class="container-fluid colorBase">
         <!-- LINKS DE REDES SOCIALES -->
-        <div class="row">
+        <div class="row text-center">
 
-                <div class="col-sm-6">
+                <div class="col-sm-5">
                     <h3>ENCONTRANOS EN LAS REDES</h3>
                     <a href="https://www.linkedin.com/company/69815777/">
                         <p>SIS S.A.S- LinkedIn</p>
@@ -117,8 +121,8 @@
                         <p>SIS S.A.S-Instagram</p>
                     </a>
                 </div>
-
-                <div class="col-sm-6">
+<hr>
+                <div class="col-sm-5">
                     <h3>
                         <a href="pages/contacto.html">CONTACTANOS</a>
                     </h3>
