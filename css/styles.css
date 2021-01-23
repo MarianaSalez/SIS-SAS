@@ -125,9 +125,9 @@ table {
   color: #2c2b2b;
   font-family: 'Roboto Condensed';
   background-color: #dbd0c6;
-  margin: 10px;
   border: solid black;
-  border-width: 5px; }
+  border-width: 5px;
+  width: 100%; }
 
 th {
   text-align: center;
@@ -138,6 +138,18 @@ td {
   text-align: center;
   border: solid black;
   border-width: 0.5px; }
+
+thead {
+  font-size: calc(10px+0.6vw); }
+
+tbody {
+  font-size: calc(10px+0.5vw); }
+
+@media (max-width: 576px) {
+  tbody {
+    font-size: 12px; }
+  thead {
+    font-size: 14px; } }
 
 /*codigo para elementos especificos*/
 .tablaProfesionales {

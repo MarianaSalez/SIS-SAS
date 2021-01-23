@@ -1,10 +1,18 @@
 
 /*codigo para tablas / td display:inline-block*/
 table {color: rgb(44, 43, 43) ; font-family:'Roboto Condensed'; 
-    background-color: rgb(219, 208, 198); margin: 10px;
-    border: solid black; border-width:5px;}
+    background-color: rgb(219, 208, 198);
+    border: solid black; border-width:5px; width: 100%;}
 th {text-align: center;border: solid black; border-width: 0.5px;}
 td {text-align: center;border: solid black; border-width: 0.5px;}
+thead{font-size: calc(10px+0.6vw)}
+tbody{font-size: calc(10px+0.5vw);}
+@media (max-width: 576px) {
+    tbody {
+      font-size: 12px;
+    }
+    thead{font-size:14px}
+}
 
 
 
