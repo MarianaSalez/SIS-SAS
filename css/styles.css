@@ -302,9 +302,9 @@ tbody {
     width: 200px;
     height: 250px; } }
 
-@media only screen and (min-width: 540px) {
+@media only screen and (min-width: 455px) {
   .size-sm-map {
-    width: 330px;
+    width: 400px;
     height: 200px; }
   .titulo-sm {
     font-size: 18px; }
@@ -313,7 +313,7 @@ tbody {
 
 @media only screen and (min-width: 768px) {
   .size-md-map {
-    width: 360px;
+    width: 305px;
     height: 250px; }
   .titulo-md {
     font-size: 20px; }
@@ -322,7 +322,7 @@ tbody {
 
 @media only screen and (min-width: 930px) {
   .size-lg-map {
-    width: 400px;
+    width: 370px;
     height: 300px; }
   .titulo-lg {
     font-size: 30px; }
@@ -330,8 +330,8 @@ tbody {
     font-size: 20px; } }
 
 @media only screen and (min-width: 1150px) {
-  .size-lg-map {
-    width: 500px;
+  .size-xl-map {
+    width: 450px;
     height: 400px; } }
 
 .mapa {
