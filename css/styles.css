@@ -69,20 +69,20 @@ h1 {
 h2 {
   text-align: center;
   margin-top: 10px;
-  font-size: calc(15px + 1.5vw); }
+  font-size: calc(20px + 1.8vw); }
 
 div {
   padding: 10px;
   margin: 3px; }
 
 div a img {
-  width: 200px;
-  height: 200px;
+  width: 260px;
+  height: 260px;
   transition: all 1s; }
 
 div a img:hover {
-  height: 240px;
-  width: 240px;
+  height: 290px;
+  width: 290px;
   padding: 5px; }
 
 p {
@@ -213,7 +213,7 @@ tbody {
   background-color: rgba(212, 148, 76, 0.897); }
 
 .colorGestion__mono {
-  background-color: #7233f0; }
+  background-color: #a27bf1; }
 
 .colorHidraulica__mono {
   background-color: rgba(14, 164, 252, 0.767); }
@@ -249,7 +249,7 @@ tbody {
   background-color: rgba(146, 146, 146, 0.897); }
 
 .gray2 {
-  background-color: #b6b6b6; }
+  background-color: #e2e0e0; }
 
 .body__fondo {
   background-image: url(../images/Fondo.png);
