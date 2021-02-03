@@ -256,6 +256,30 @@ tbody {
 .gray2 {
   background-color: #e2e0e0; }
 
+tr .ifAgrimensura:hover {
+  color: #b32820; }
+
+tr .ifAmbiente:hover {
+  color: #0b9748; }
+
+tr .ifArquitectura:hover {
+  color: rgba(235, 129, 8, 0.836); }
+
+tr .ifElectromecanica:hover {
+  color: #fa2424; }
+
+tr .ifEstructuras:hover {
+  color: #be7623; }
+
+tr .ifGestion:hover {
+  color: #6622f0; }
+
+tr .ifHidraulica:hover {
+  color: #0f96e4; }
+
+tr .ifVialidad:hover {
+  color: rgba(197, 160, 12, 0.884); }
+
 .body__fondo {
   background-image: url(../images/Fondo.png);
   margin: 0px;
@@ -310,7 +334,8 @@ tbody {
   opacity: 1; }
 
 .iconos {
-  max-width: 40px; }
+  max-width: 40px;
+  pointer-events: none; }
 
 @media only screen and (min-width: 150px) {
   .size-xs-map {
