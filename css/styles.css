@@ -256,29 +256,29 @@ tbody {
 .gray2 {
   background-color: #e2e0e0; }
 
-tr .ifAgrimensura:hover {
+table .ifAgrimensura:hover {
   color: #b32820; }
 
-tr .ifAmbiente:hover {
+table .ifAmbiente:hover {
   color: #0b9748; }
 
-tr .ifArquitectura:hover {
+table .ifArquitectura:hover {
   color: rgba(235, 129, 8, 0.836); }
 
-tr .ifElectromecanica:hover {
+table .ifElectromecanica:hover {
   color: #fa2424; }
 
-tr .ifEstructuras:hover {
+table .ifEstructuras:hover {
   color: #be7623; }
 
-tr .ifGestion:hover {
+table .ifGestion:hover {
   color: #6622f0; }
 
-tr .ifHidraulica:hover {
+table .ifHidraulica:hover {
   color: #0f96e4; }
 
-tr .ifVialidad:hover {
-  color: rgba(197, 160, 12, 0.884); }
+table .ifVialidad:hover {
+  color: #ffe70d; }
 
 .body__fondo {
   background-image: url(../images/Fondo.png);
