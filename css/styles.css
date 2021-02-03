@@ -71,6 +71,11 @@ h2 {
   margin-top: 10px;
   font-size: calc(20px + 1.8vw); }
 
+h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: calc(10px + 1.8vw); }
+
 div {
   padding: 5px;
   margin: 3px; }
@@ -303,6 +308,9 @@ tbody {
 .flecha {
   color: black;
   opacity: 1; }
+
+.iconos {
+  max-width: 40px; }
 
 @media only screen and (min-width: 150px) {
   .size-xs-map {
