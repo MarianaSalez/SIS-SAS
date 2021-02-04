@@ -252,6 +252,9 @@ tbody {
 .textoVialidad {
   color: rgba(236, 192, 16, 0.884); }
 
+.gray0 {
+  background-color: #444343; }
+
 .gray1 {
   background-color: rgba(146, 146, 146, 0.897); }
 
@@ -346,6 +349,9 @@ table .ifVialidad:hover {
 @media only screen and (max-width: 576px) {
   .hRow {
     height: 350px; } }
+
+.video {
+  max-width: calc(100px +0.5vw); }
 
 @media only screen and (min-width: 150px) {
   .size-xs-map {
