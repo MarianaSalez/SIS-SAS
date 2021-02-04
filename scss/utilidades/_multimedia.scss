@@ -13,3 +13,7 @@
 .fondoOscuro{background-color: rgb(217,217,217);}
 .flecha{color:black; opacity: 1;}
 .iconos{max-width: 40px;pointer-events: none}
+@media only screen and (min-width: 576px)
+    {.hRow{height: 400px;}}
+@media only screen and (max-width: 576px)
+    {.hRow{height: 350px;}}

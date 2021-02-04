@@ -339,6 +339,14 @@ table .ifVialidad:hover {
   max-width: 40px;
   pointer-events: none; }
 
+@media only screen and (min-width: 576px) {
+  .hRow {
+    height: 400px; } }
+
+@media only screen and (max-width: 576px) {
+  .hRow {
+    height: 350px; } }
+
 @media only screen and (min-width: 150px) {
   .size-xs-map {
     width: 200px;
